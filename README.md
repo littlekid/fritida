@@ -84,6 +84,32 @@ Ta bort taggar:
 Webbformulär? OM vi hinner! :)
 
 
+drop
+stream
+lake
+river
+iceberg
+ocean
+asteroid
+
+Olika nivåer av tillgång till tjänsten. 
+
+
+En användare som bidrar (eJ event organizer), kan vara:
+Älg, lama, lax, gnu, pingvin...
+Älgen - "mästaren"
+Sen kommer GNUn
+Sen pingvinen
+Sedan laxen
+Sedan laman
+
+
+Footer: alla tjänster:
+Organiserar ni evenemang/aktiviteter?
+Förening? Lägg till er här!
+Bekräfta er förening: 100kr i engångsavgift: en riktig människa kollar att ni finns på riktigt... :)
+
+
 ## ideas & thoughts
 - [ ] bot.fritida.se
 - [ ] api.fritida.se 
