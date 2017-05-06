@@ -46,6 +46,44 @@ Fritidsaktiviteter för alla!
 - [ ] Lägg upp ett SMS (och MMS?) telefonnummer för fritida
 - [ ] Nollställa lösenord?
 
+Koncept:
+Aktiviteter ((rubrik alls viktigt?) beskrivning, ev. plats/väder/pris/antal personer/krävs ngn utrustning? Om ja finns den att låna/hyra på plats?
+Platser
+Användare (har mobilnummer! och/eller e-postadress!)
+Nyckelord "Kategorier"(egentligen bara utvalda nyckelord, men visa "kategorier" på hemsidan. 
+Välkomna vänner och andra att testa att lägga till aktivitet på hemsidan! :)
+Snabbt och enkelt kunna blocka en användare som skickar in strunt. 
+Lägg upp ett fint mobilnummer!
+Vilka aktiviteter saknar du? Skicka in tips via sms till:
+Skicka en aktivitet per sms!
+Hur gör vi för att slå samman kopior?
+Ge den som skickat in tipset cred. Fråga om de vill skapa användare? Annars visas de som anonyma. Vilka användarnamn vill vi spara till vänner, familj och bekanta? :)
+litylekid/Victoria/pinkprogramming...
+
+Prata med Simply events confetti - kanske samarbeta så att de kan erbjuda användare en knapp som säger "lägg till och visa upp mitt event på fritida" ? :)
++ skriv också till simply events + invajo!
+
+Bygg upp ett api som kan ta emot "posts", i requesten måste folk skicka med nyckel!!!! som parameter i urlen!
+
+Just det - i helloworld - förklara att www-url-encoded... motsvarar att skicka med parametrar i url:en. 
+
+Lägg in en del aktiviteter manuellt, måste ju fylla den med lite innehåll. Gradera aktiviteter. Användare som är pålitliga kan välja att gradera aktiviteter:
+Samhällsnytta? Ja / Nej? Om ja, på en skala från 0-10? (10 stor nytta, 0, ingen nytta alls, 1 pyttelite nytta. )
+
+Kunna visa listor...
+Hur kopplar vi ihop en aktivitet med en plats?
+Vi kan börja med "orter", och köra long/lat, om vi hinner. 
+
+
+Nyckelord (taggar) - hur taggar jag en altivitet? (Skicka med taggar!) din aktivitet får direkt ett id!
+Om du har skapat aktiviteten så kan du:
+Fortsätta lägga till taggar...
+Ta bort taggar:
+Ändra rubriken/plats/priset/utrustning...
+
+Webbformulär? OM vi hinner! :)
+
+
 ## ideas & thoughts
 - [ ] bot.fritida.se
 - [ ] api.fritida.se 
