@@ -5,13 +5,18 @@ $(document).ready(function(){
         $.ajax({url: "http://fritida.se/api/activities/", success: function(result){
           console.log(result);
           $.each(result, function( index, activity ) {
-            console.log( index );
-            console.log(activity.title);
-            console.log(activity["description"]);
-            $("#activities").append('<li>' + activity.title + '<br>'  + activity.description + '</li>' );
+
+            $("#activities").append('<div class="grid-item">' + activity.title + '<br>'  + activity.description + '</div>' );
           });
         }});
+        var $container = jQuery('#activities');
+        // initialize
+        $container.masonry({
+          columnWidth: 200,
+          itemSelector: '.grid-item'
+        });
 });
+
 
 
 

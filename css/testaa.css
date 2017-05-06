@@ -9,7 +9,7 @@ body {
 }
 
 #menu {
-	background: #ff4444;
+	background: #4CD5AA;
 	height: 60px;
 	padding: 0 5px 0;
 	text-align: center;
@@ -62,7 +62,7 @@ p {
 }
 .grid-item {
   display: inline-block;
-  border: 1px solid white;
+  border: 10px solid hotpink;
   margin: 10px;
 }
 #activities {
