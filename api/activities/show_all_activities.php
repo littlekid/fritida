@@ -1,22 +1,21 @@
 <?php
   include 'secret.php';
-
+  header('Content-Type: application/json');
   $mysqli = new mysqli($databaseUrl, $databaseUser, $databasePassword, $databaseName);
 
   if ($mysqli->connect_errno) {
       echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
   }
   if ($result = $mysqli->query("SELECT * FROM activities")) {
-    $output = "[\n";
+    //$output = '{"activities": '."\n";
+    $activities = [];
     while($activity = $result->fetch_assoc()) {
-      $output .= "  {\n";
-      $output .= '    "title":"'.$activity["title"].'",';
-      $output .= '    "title":"'.$activity["description"].'"';
-      $output .= "\n  },";
+      $activity_item = [];
+      $activity_item["title"] = $activity["title"];
+      $activity_item["description"] = $activity["description"];
+      array_push($activities, $activity_item);
     }
-    $output .= "\n]";
-    $output = str_replace(",\n]", "\n]", $output);
-    echo $output;
+    echo json_encode($activities);
     $result->close();
 }
 ?>
