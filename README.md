@@ -9,6 +9,7 @@ Fritidsaktiviteter för alla!
 - [x] Dela repot m Maja
 - [x] Skapa upp databas
 - [x] Lägg in konceptet aktivitet i databasen
+  - [x] ID!
   - [x] Rubrik?
   - [x] Beskrivning
   - [x] Pris?
@@ -21,6 +22,7 @@ Fritidsaktiviteter för alla!
   - [x] Visar alla aktiviteter på /api/activities
   - [ ] Kunna lägga till aktiviteter genom att posta en json till /api/activities
   - [ ] Kräv api-nyckel för att får göra request till API:et (om det inte är hemsidan själv som gör förfrågan - hur vet/ser vi det? :) )
+  - [x] Gör så att api:et både klarar av att ta emot "POSTs" och json input! :)
 - [ ] Lista aktiviteter på hemsidan - hämtas ifrån databasen
 - [ ] endpoint på api.fritida.se som kan ta emot posts, med apinyckel(!), för att lägga till aktiviteteter
 - [ ] Lägg till koncepten konto & användare i databasen - användare kan, men måste inte ha ett konto. För flera olika användare kan vilja hantera en del aktiviteter genemsamt, men inte andra.  
