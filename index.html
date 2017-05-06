@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    
-    <script src="script.js" charset="utf-8"></script>
-  </body>
+<head>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<meta charset="utf-8">
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li class="selected"><a href="index.html">Aktiviteter</a></li>
+			<li><a href="newactivity.html">Ny aktivitet</a></li>
+		</ul>
+	</div>
+  <center>
+
+	<h1>Närmsta aktivitet</h1>
+  <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+      <ul id="activities">
+
+      </ul>
+      </div>
+  </div>
+
+	<!--Make a text box for le inputz-->
+</center>
+	 <center>
+
+	 <table id="showAccounting">
+
+
+	</table>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="script.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</body>
 </html>
