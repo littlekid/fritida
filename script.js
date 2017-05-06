@@ -6,7 +6,7 @@ $(document).ready(function(){
           console.log(result);
           $.each(result, function( index, activity ) {
 
-            $("#activities").append('<div class="grid-item">' + activity.title + '<br>'  + activity.description + '</div>' );
+            $("#activities").append('<div class="grid-item">' + '<b>' + activity.title + '</b>' + '<br>'  + activity.description + '</div>' );
           });
         }});
         var $container = jQuery('#activities');
