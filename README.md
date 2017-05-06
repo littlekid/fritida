@@ -43,6 +43,7 @@ Fritidsaktiviteter för alla!
   - [ ] Beskrivning
 - [ ] Lägg till konceptet nyckelord i databasen
   - [ ] ord
+    - [ ] väder
   - [ ] hänga ihop med andra ord? koll potentiella felstavningar / alternativa sätt att skriva samma sak så att vi fångar upp det när folk lägger till aktiviteter eller söker?
   - [ ] aktivt? (D.v.s. vi godkänner i början manuellt alla nya nyckelord
 - [ ] Kunna koppla samman nyckelord
