@@ -12,6 +12,7 @@ Fritidsaktiviteter för alla!
 ## VISION
 
 
-## WE USE
+## Tools
 Things, git, vim, github
+Things, 46 elks, vim, sequel pro, PHP, Binero, github, iterm, scp, filezilla
 
