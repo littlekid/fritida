@@ -22,6 +22,7 @@ Fritidsaktiviteter för alla!
   - [x] Visar alla aktiviteter på /api/activities
   - [ ] Kunna lägga till aktiviteter genom att posta en json till /api/activities
   - [ ] Kräv api-nyckel för att får göra request till API:et (om det inte är hemsidan själv som gör förfrågan - hur vet/ser vi det? :) )
+    - [ ] om nyckeln är den som används @ 46elks -> Kolla då FROM, för att avgöra vem det är som skickar in.
   - [x] Gör så att api:et både klarar av att ta emot "POSTs" och json input! :)
 - [ ] Lista aktiviteter på hemsidan - hämtas ifrån databasen
 - [ ] endpoint på api.fritida.se som kan ta emot posts, med apinyckel(!), för att lägga till aktiviteteter
