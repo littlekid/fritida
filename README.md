@@ -6,7 +6,7 @@ Fritidsaktiviteter för alla!
 - [x] Fixa todo markup i README'n
 - [x] Skapa dagbok (diary.md)
 - [x] skapa upp staging.fritida.se
-- [ ] Dela repot m Maja
+- [x] Dela repot m Maja
 - [ ] Skapa upp databas
 - [ ] Lägg in konceptet aktivitet i databasen
   - [ ] Rubrik?
