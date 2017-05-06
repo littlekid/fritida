@@ -13,7 +13,7 @@ Fritidsaktiviteter för alla!
   - [x] Rubrik?
   - [x] Beskrivning
   - [x] Pris?
-  - [ ] Vem har lagt in den? (konceptet användare/konto behövs)
+  - [x] Vem har lagt in den? (konceptet användare/konto behövs - bädda genom att lägga in user_id)
   - [x] När lades den in?
   - [x] När godkändes den ("aktiverades" - godkänd för visning på hemsidan/i apiet) (key: activated)
   - [ ] Bilder - gör det enkelt att lägga till bilder - börja med mms -> enklast
@@ -22,19 +22,18 @@ Fritidsaktiviteter för alla!
   - [x] Visar alla aktiviteter på /api/activities
   - [x] Kunna lägga till aktiviteter genom att posta en json till /api/activities
   - [x] Kräv api-nyckel för att får göra request till API:et (om det inte är hemsidan själv som gör förfrågan - hur vet/ser vi det? :) )
+    - [ ] Vem har lagt in aktiviteten? (konceptet användare/konto behövs)
     - [ ] om nyckeln är den som används @ 46elks -> Kolla då FROM, för att avgöra vem det är som skickar in.
   - [x] Gör så att api:et både klarar av att ta emot "POSTs" och json input! :)
 - [x] Lista aktiviteter på hemsidan - hämtas ifrån databasen
 - [ ] Designa hemsidan
 - [ ] Lägg till koncepten konto & användare i databasen - användare kan, men måste inte ha ett konto. För flera olika användare kan vilja hantera en del aktiviteter genemsamt, men inte andra.  
-  - [ ] Användare har olika nivåer av rättigheter
   - [ ] Har användaren aktiverat sitt konto? (Swishat)
   - [ ] e-post
-  - [ ] mobilnummer
-  - [ ] namn
-  - [ ] användarnamn
-  - [ ] När skapades kontot?
-  - [ ] konton (ofta en arrangör/organisation/sponsor) (inte användare) kan ha bild (logga)
+  - [x] mobilnummer
+  - [x] namn
+  - [x] användarnamn
+  - [x] När skapades kontot?
   - [ ] apinyckel - användare kan ha api-nyckel.
   - [ ] lösenord för inloggning online (med mobilnummer eller e-post)
 - [ ] kräv apinyckel @ endpointen för att lägga till aktiviteter
