@@ -1,0 +1,2 @@
+# fritida
+Fritidsaktiviteter för alla!
